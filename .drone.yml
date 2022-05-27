@@ -6,8 +6,8 @@ platform:
   arch: arm64
 
 steps:
-- name: greeting
-  image: alpine
+- name: test
+  image: node
   commands:
-  - echo hello
-  - echo world
+  - npm install
+  - npm test
