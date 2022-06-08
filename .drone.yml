@@ -12,7 +12,7 @@ steps:
   - npm install
   - npm test
 - name: jira
-  image: rickcraig/jira
+  image: rickcraigharness/drone-jira
   settings:
     url: https://rick-dev.atlassian.net/
     username: richard.craig@gmail.com
