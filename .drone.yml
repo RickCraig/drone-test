@@ -14,7 +14,7 @@ steps:
 - name: jira
   image: rickcraigharness/drone-jira
   settings:
-    url: https://rick-dev.atlassian.net/
-    username: richard.craig@gmail.com
-    token: qt4t5I9sI3l0Ho56PMyMAB7C
+    url: https://harness.atlassian.net/
+    username: richard.craig@harness.io
+    token: NwKUXJ0bGgP1sbhSw4nH4071
 
