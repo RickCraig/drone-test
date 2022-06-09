@@ -16,5 +16,6 @@ steps:
   settings:
     url: https://rick-dev.atlassian.net/
     username: richard.craig@gmail.com
-    token: qmacZFsTk5rv280Gx2A363D3
+    token:
+      from_secret: jira_api_token
 
